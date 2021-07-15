@@ -1,0 +1,8 @@
+.app {
+  background-color: #e8e8e8;
+}
+
+.app__wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
