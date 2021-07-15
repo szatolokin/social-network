@@ -15,6 +15,11 @@
 
   background-color: #18A558;
 }
+@media (max-width: 767px) {
+  .header__container {
+    padding: 0 30px;
+  }
+}
 
 .header__logo {
   padding: 0.5rem;

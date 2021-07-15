@@ -7,10 +7,20 @@
 
   background-color: #116530;
 }
+@media (max-width: 767px) {
+  .footer {
+    padding: 30px;
+    min-height: calc(100vh * 0.25);
+  }
+}
 
 .footer__link {
+  padding: 0.5rem;
+
+  background-color: white;
+  border-radius: 0.5rem;
   font-size: 24px;
-  color: white;
+  color: #116530;
 }
 .footer__link:hover {
   animation: shake 0.25s;
