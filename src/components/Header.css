@@ -1,0 +1,32 @@
+.header {
+  height: 100px;
+}
+
+.header__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0 60px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+
+  background-color: #18A558;
+}
+
+.header__logo {
+  padding: 0.5rem;
+
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  transition: 0.25s;
+}
+.header__logo:hover {
+  background-color: white;
+  color: #18A558;
+}
