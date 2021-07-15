@@ -1,0 +1,45 @@
+.footer {
+  padding: 60px;
+  min-height: calc(100vh * 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  background-color: #116530;
+}
+
+.footer__link {
+  font-size: 24px;
+  color: white;
+}
+.footer__link:hover {
+  animation: shake 0.25s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+  25% {
+    transform: rotate(-5deg);
+
+    opacity: 0.75;
+  }
+  50% {
+    transform: rotate(0deg);
+
+    opacity: 0.5;
+  }
+  75% {
+    transform: rotate(5deg);
+
+    opacity: 0.75;
+  }
+  100% {
+    transform: rotate(0deg);
+    
+    opacity: 1;
+  }
+}
